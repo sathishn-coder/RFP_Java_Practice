@@ -14,7 +14,6 @@ public class Largest_Number {
 		}
 		else if(b>a && b>c) {
 			System.out.println(b+" is a Largest");
-			
 		}
 		else {
 			System.out.println(c+" is a Largest");
