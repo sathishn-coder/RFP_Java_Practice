@@ -7,7 +7,6 @@ public class WindChill {
 
 	        // Formula Validations
 	        if (Math.abs(t) > 50 || v > 120 || v < 3) {
-
 	            System.out.println("Invalid Input Values");
 	            return;
 	        }
