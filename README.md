@@ -22,10 +22,19 @@ The SRM Mentors – Java Fellowship is an intensive, hands-on training program d
      - Practiced Employee Wage Computation Problem Part 2
    
 # May 8
+
    - Oops and Data Structure
        - Day 8 Oops Concept Part 1 and Practice Problem
        - Day 9 Oops Concept Part 2 and Practice Problem
        - Day 10 Oops Concept Part 3 , Day 11 and 12 Practice Problem
+    
+# May 9
+
+   - Oops and Data Structure
+        - Day 13 Java Generic & Practice Problem
+        - Day 14 Data Structure , LinkedList , Stack and Queue
+        - Day 15 Hash Table & Data Structure
+        - Day 16 & 17 Algorithm
    
      
 
