@@ -33,8 +33,14 @@ The SRM Mentors – Java Fellowship is an intensive, hands-on training program d
    - Oops and Data Structure
         - Day 13 Java Generic & Practice Problem
         - Day 14 Data Structure , LinkedList , Stack and Queue
-        - Day 15 Hash Table & Data Structure
-        - Day 16 & 17 Algorithm
+        - Completing Practice and Use Case Problem
+        
+    
+# May 10
+
+   - Oops and Data Structure
+       - Day 15 Hash Table & Data Structure
+       - Day 16 & 17 Algorithm
    
      
 
