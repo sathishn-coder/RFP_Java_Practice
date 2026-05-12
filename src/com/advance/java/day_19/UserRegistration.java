@@ -46,6 +46,12 @@ public class UserRegistration {
         return Pattern.matches(regex, password);
     }
     
+    // UC8 - Password Rule 4 (Exactly 1 Special Character)
+    public boolean validatePasswordRule4(String password) {
+        String regex = "^(?=.*[A-Z])(?=.*[0-9])(?=(?:.*[^a-zA-Z0-9]){1})[A-Za-z0-9[^a-zA-Z0-9]]{8,}$";
+        return Pattern.matches(regex, password);
+    }
+    
     
 
 	public static void main(String[] args) {
@@ -80,6 +86,11 @@ public class UserRegistration {
 	        // UC7
 	        System.out.println("\nPassword Rule3:");
 	        System.out.println(user.validatePasswordRule3("Password1"));
+	        
+
+	        // UC8
+	        System.out.println("\nPassword Rule4:");
+	        System.out.println(user.validatePasswordRule4("Password@1"));
 
 
 
