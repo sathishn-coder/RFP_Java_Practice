@@ -1,0 +1,15 @@
+package com.advance.java.day_21;
+
+public class MoodAnalysisException extends Exception {
+
+    public enum ExceptionType{
+        EMPTY,
+        NULL
+    }
+
+    public ExceptionType type;
+    public MoodAnalysisException(ExceptionType type, String message) {
+        super(message);
+        this.type = type;
+    }
+}
