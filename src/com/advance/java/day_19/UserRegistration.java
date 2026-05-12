@@ -34,6 +34,12 @@ public class UserRegistration {
         return Pattern.matches(regex, password);
     }
     
+    // UC6 - Password Rule 2 (At least 1 Uppercase)
+    public boolean validatePasswordRule2(String password) {
+        String regex = "^(?=.*[A-Z]).{8,}$";
+        return Pattern.matches(regex, password);
+    }
+    
     
 
 	public static void main(String[] args) {
@@ -61,6 +67,9 @@ public class UserRegistration {
 	        System.out.println("\nPassword Rule1:");
 	        System.out.println(user.validatePasswordRule1("Password"));
 
+	     // UC6
+	        System.out.println("\nPassword Rule2:");
+	        System.out.println(user.validatePasswordRule2("Password"));
 
 
 	}
