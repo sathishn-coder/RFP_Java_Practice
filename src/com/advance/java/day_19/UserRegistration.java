@@ -52,6 +52,26 @@ public class UserRegistration {
         return Pattern.matches(regex, password);
     }
     
+    // UC9 - Validate Multiple Email Samples
+    public void validateEmailSamples() {
+
+        String[] validEmails = {
+                "abc@yahoo.com",
+                "abc-100@yahoo.com",
+                "abc.100@yahoo.com",
+                "abc111@abc.com",
+                "abc-100@abc.net",
+                "abc.100@abc.com.au",
+                "abc@1.com",
+                "abc@gmail.com.com",
+                "abc+100@gmail.com"
+        };
+
+        for (String email : validEmails) {
+            System.out.println(email + " : " + validateEmail(email));
+        }
+    }
+    
     
 
 	public static void main(String[] args) {
@@ -92,6 +112,10 @@ public class UserRegistration {
 	        System.out.println("\nPassword Rule4:");
 	        System.out.println(user.validatePasswordRule4("Password@1"));
 
+
+	        // UC9
+	        System.out.println("\nEmail Samples Validation:");
+	        user.validateEmailSamples();
 
 
 	}
