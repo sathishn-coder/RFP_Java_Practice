@@ -41,6 +41,19 @@ The SRM Mentors – Java Fellowship is an intensive, hands-on training program d
    - Oops and Data Structure
        - Day 15 Hash Table & Data Structure
        - Day 16 & 17 Algorithm
+    
+# May 11
+
+   - Advance Java
+       - Learn About a Java Regex
+       - Work out Regex Based Problem
+    
+# May 12
+
+   - Advance Java
+        - Learn About a JUnit in Java
+        - JUnit Annotation and Assertion
+        - Workout Problem Based Junit 
    
      
 
