@@ -21,6 +21,14 @@ public class UserRegistration {
         String regex = "^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)?@[a-zA-Z0-9]+\\.[a-zA-Z]{2,}(\\.[a-zA-Z]{2,})?$";
         return Pattern.matches(regex, email);
     }
+    
+    // UC4 - Mobile Number Validation
+    public boolean validateMobile(String mobile) {
+        String regex = "^[0-9]{2}\\s[0-9]{10}$";
+        return Pattern.matches(regex, mobile);
+    }
+    
+    
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -38,6 +46,10 @@ public class UserRegistration {
 	        // UC3
 	        System.out.println("\nEmail Validation:");
 	        System.out.println(user.validateEmail("abc.xyz@bl.co.in"));
+	        
+	        // UC4
+	        System.out.println("\nMobile Number Validation:");
+	        System.out.println(user.validateMobile("91 9919819801"));
 
 
 	}
