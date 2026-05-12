@@ -40,6 +40,12 @@ public class UserRegistration {
         return Pattern.matches(regex, password);
     }
     
+    // UC7 - Password Rule 3 (At least 1 Numeric Number)
+    public boolean validatePasswordRule3(String password) {
+        String regex = "^(?=.*[A-Z])(?=.*[0-9]).{8,}$";
+        return Pattern.matches(regex, password);
+    }
+    
     
 
 	public static void main(String[] args) {
@@ -70,6 +76,11 @@ public class UserRegistration {
 	     // UC6
 	        System.out.println("\nPassword Rule2:");
 	        System.out.println(user.validatePasswordRule2("Password"));
+	        
+	        // UC7
+	        System.out.println("\nPassword Rule3:");
+	        System.out.println(user.validatePasswordRule3("Password1"));
+
 
 
 	}
