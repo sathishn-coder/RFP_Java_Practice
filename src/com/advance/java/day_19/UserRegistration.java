@@ -28,6 +28,12 @@ public class UserRegistration {
         return Pattern.matches(regex, mobile);
     }
     
+ // UC5 - Password Rule 1 (Minimum 8 Characters)
+    public boolean validatePasswordRule1(String password) {
+        String regex = "^.{8,}$";
+        return Pattern.matches(regex, password);
+    }
+    
     
 
 	public static void main(String[] args) {
@@ -50,6 +56,11 @@ public class UserRegistration {
 	        // UC4
 	        System.out.println("\nMobile Number Validation:");
 	        System.out.println(user.validateMobile("91 9919819801"));
+	        
+	     // UC5
+	        System.out.println("\nPassword Rule1:");
+	        System.out.println(user.validatePasswordRule1("Password"));
+
 
 
 	}
