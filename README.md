@@ -62,6 +62,13 @@ The SRM Mentors – Java Fellowship is an intensive, hands-on training program d
    - Advance Java
        - Learn About a Java Regex
        - Work out Regex Based Problem
+       - Day 19 Regex and Practice Problem
+
+# May 16
+
+   - Advance Java
+         - Day 20 JUnit Testing
+         - Day 20 Practice Problem
 
    
      
