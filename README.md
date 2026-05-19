@@ -69,6 +69,13 @@ The SRM Mentors – Java Fellowship is an intensive, hands-on training program d
    - Advance Java
        - Day 20 JUnit Testing
        - Day 20 Practice Problem
+    
+# May 18
+
+   - Advance Java
+       - Learn about Exception Handling
+       - Types of Exception Handling
+       - Practice Problem
 
    
      
