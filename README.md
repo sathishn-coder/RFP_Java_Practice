@@ -76,6 +76,12 @@ The SRM Mentors – Java Fellowship is an intensive, hands-on training program d
        - Learn about Exception Handling
        - Types of Exception Handling
        - Practice Problem
+    
+# May 19
+
+   - Advance Java
+      - Day 21 Exception Handling and Types
+      - Day 21 Practice Problem
 
    
      
