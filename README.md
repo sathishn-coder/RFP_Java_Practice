@@ -82,6 +82,12 @@ The SRM Mentors – Java Fellowship is an intensive, hands-on training program d
    - Advance Java
       - Day 21 Exception Handling and Types
       - Day 21 Practice Problem
+    
+# May 20
+
+   - Advance Java
+       - Learn about Lambda Expression
+       - Functional Programing
 
    
      
